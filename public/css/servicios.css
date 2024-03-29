@@ -1,0 +1,71 @@
+.container {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .container1 {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--secundary-color);
+  }
+  .title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .description {
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+
+.profile-info{
+    margin-bottom: 0px;
+}
+
+.profile-img{
+    border-radius: 100%;
+}
+
+.profile-img-section{
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.profile{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    max-width: 980px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.profile-title{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    
+}
+
+.profile-details{
+    font-size: 20px;
+    line-height: 1.4;
+    max-width: 600px;
+    margin: 30px 0;
+}
+
+/* Estilo base del botón */
+.custom-button {
+    background-color:  var(--primary-color);
+    color: var(--text-color-inverse);
+    border: none; /* Quitamos el borde */
+    padding: 10px 20px; 
+    cursor: pointer; /* Cambiamos el cursor */
+    transition: background-color 0.3s, color 0.3s; /* Transición suave */
+}
+
+/* Estilo para cuando el cursor pasa sobre el botón */
+.custom-button:hover {
+    background-color: var(--secundary-color);
+    color: var(--primary-color);
+}

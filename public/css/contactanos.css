@@ -1,0 +1,51 @@
+.container2 {
+    padding: 20px;
+    border: 1px solid var(--secundary-color);;
+    border-radius: 10px; /* Hacer los bordes redondeados */
+    max-width: 980px; /* Establecer un ancho máximo para el formulario */
+    margin: 0 auto; 
+}
+
+.form-control {
+    border-radius: 5px; /* Hacer los bordes redondeados en los campos de entrada */
+}
+
+.btn-primary {
+    border-radius: 5px; /* Hacer los bordes redondeados en el botón de enviar */
+}
+
+.container {
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+  }
+
+  .container1 {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--secundary-color);
+  }
+  .title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .description {
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+
+/* Estilo base del botón */
+.custom-button {
+    background-color:  var(--primary-color);
+    color: var(--text-color-inverse);
+    border: none; /* Quitamos el borde */
+    padding: 10px 20px; 
+    cursor: pointer; /* Cambiamos el cursor */
+    transition: background-color 0.3s, color 0.3s; /* Transición suave */
+}
+
+/* Estilo para cuando el cursor pasa sobre el botón */
+.custom-button:hover {
+    background-color: var(--secundary-color);
+    color: var(--primary-color);
+}
